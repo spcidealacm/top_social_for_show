@@ -49,10 +49,10 @@ middle_highline_description_p.forEach((element, index) => {
   element.textContent = highline.description[index]
 })
 middle_highline_description_img.forEach((element, index) => {
-  element.src = `./src/images/profile/profile_${index + 3}.png`
+  element.src = `/images/profile/profile_${index + 3}.png`
 })
 middle_highline_description.forEach((element, index) => {
-  element.style.backgroundImage = `url("./src/images/highline/highline_${index + 1}.jpeg")`
+  element.style.backgroundImage = `url("/images/highline/highline_${index + 1}.jpeg")`
 })
 
 const cardDom = document.querySelector('.card')
